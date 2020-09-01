@@ -1,24 +1,31 @@
 <html>
   <head>
   <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Gridea | Gridea</title>
-<link rel="shortcut icon" href="https://pomelo7.github.io/favicon.ico?v=1598960609288">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://pomelo7.github.io/favicon.ico?v=1598962270797">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://pomelo7.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea | Gridea - Atom Feed" href="https://pomelo7.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 
-  <meta name="description" content="温故而知新" />
   </head>
   <body>
     <div class="main">
-      <div class="main-content">
+      <div class="left-content">
         <div class="site-header">
+  <div class="icon" id="button">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </div>
   <a href="https://pomelo7.github.io">
-  <img class="avatar" src="https://pomelo7.github.io/images/avatar.png?v=1598960609288" alt="">
+  <img class="avatar" src="https://pomelo7.github.io/images/avatar.png?v=1598962270797" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -68,40 +75,63 @@
   </div>
 </div>
 
-        <div class="current-tag-container">
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+      <div class="main-content">
+        <div class="right-content">
+          <div class="current-tag-container">
             <h2 class="title">
-                标签：# Gridea
-            </h2> 
+                标签：#Gridea
+            </h2>
         </div>
         <div class="post-container">
   
-    <article class="post">
+  <article class="post">
+    <div class="left">
       <a href="https://pomelo7.github.io/post/hello-gridea/">
         <h2 class="post-title">Hello Gridea</h2>
       </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://pomelo7.github.io/tag/gkjY2u87E/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://pomelo7.github.io/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://pomelo7.github.io/post-images/hello-gridea.png')">
-        </a>
-      
       <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+         <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
+ 
       </div>
-    </article>
+      <div class="post-info">
+        <time class="post-time">
+          <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-12
+        </time>
+
+        <span style="margin-left: 10px;">
+          <i class="fa fa-book" aria-hidden="true"></i> 2 min read</span
+        >
+
+        <!-- 
+            <a href="https://pomelo7.github.io/tag/gkjY2u87E/" class="post-tag">
+              <i class="fa fa-tag" aria-hidden="true"></i> Gridea
+            </a>
+           -->
+      </div>
+      <!-- 显示的文字 -->
+    </div>
+    <div class="right">
+      
+      <!-- 图片 -->
+      <a
+        href="https://pomelo7.github.io/post/hello-gridea/"
+        class="post-feature-image"
+        style="background-image: url('https://pomelo7.github.io/post-images/hello-gridea.png');"
+      >
+      </a>
+      
+    </div>
+  </article>
   
 </div>
 
@@ -110,14 +140,9 @@
   
 </div>
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://pomelo7.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
   </body>
 </html>
+<script src="./../media/scripts/button.js"></script>
